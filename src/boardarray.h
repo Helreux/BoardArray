@@ -1,5 +1,6 @@
 #include <iostream>
 #include "board.h"
+#include "entry.h"
 #define SIZE 5
 using namespace std;
 
@@ -16,6 +17,17 @@ class BoardArray : public Board {
         void add(Entry* entry) {
             // TODO: IMPLEMENT THIS FUNCTION
             // ALGORITHM IS PROVIDED IN INSTRUCTIONS.TXT
+
+            for(int i = 0; i < index; i++) {
+
+                Entry existing = array[i];
+
+                if(existing.compare()) {
+
+                }
+
+            }
+
             return;
         }
 
